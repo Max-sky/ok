@@ -1,4 +1,4 @@
-nodejs的安装
+##nodejs的安装
 https://nodejs.org/en/download/package-manager/
 
 curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
@@ -6,5 +6,13 @@ curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 sudo yum -y install nodejs
 
 
-库函数   request安装
+##库函数   request安装
+npm install -g request
 
+
+
+##系统默认环境：ls /usr/lib/node_modules/      没有告知node这一点
+设置系统环境变量：     export NODE_PATH="/usr/lib/node_modules/"
+
+
+#npm install -g ws
