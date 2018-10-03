@@ -66,8 +66,3 @@ vim /usr/bin/pip1
 
 pip3.5 install pymongo1
 
-又解决了一个问题。身心舒畅。感觉世界又美好了一些。  ：）
-
----------------------
-
-本文来自 WarmSword 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/junbujianwpl/article/details/51598506?utm_source=copy 
