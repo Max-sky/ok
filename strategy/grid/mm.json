@@ -1,0 +1,30 @@
+{
+"initCounter" : 100000,        #当前账户cny的数量
+"baseInfo" :[
+{
+		"currency" : "cny"
+	},
+	{
+		"currency" : "btc",
+		"initPrice" : 30000,
+		"lowLimit" : 20000,
+		"highLimit" : 40000,
+		"gap"       : 5,
+		"rate"      : 1.02,       #间距
+		"initBase"  :  0.0089,    #当前btc数量
+		"tradeAmount" : 0.02,     #每次交易量
+		"orderLength" :3          #挂几个单子
+	},
+	{
+		"currency" : "eth",
+		"initPrice" : 2470,
+		"lowLimit"  : 1000,
+		"highLimit"  : 10000,
+		"gap"        :   5,
+		"rate"       :1.002,
+		"initBase"   : 1.8,
+		"tradeAmount" : 0.02,
+		"orderLength"  : 3
+	}
+]
+}
