@@ -1,1 +1,10 @@
 nodejs的安装
+https://nodejs.org/en/download/package-manager/
+
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+
+sudo yum -y install nodejs
+
+
+库函数   request安装
+
