@@ -19,3 +19,8 @@ npm install -g request
 
 
 #npm install -g ccxt
+
+#npm install -g ccxt
+#新建文件夹 mkdir ccxt
+
+#移动文件夹 move node_module/ ccxt
