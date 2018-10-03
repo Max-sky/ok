@@ -18,4 +18,4 @@ npm install -g request
 #npm install -g ws
 
 
-#
+#npm install -g ccxt
