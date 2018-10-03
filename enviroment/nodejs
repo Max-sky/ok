@@ -5,6 +5,12 @@ curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 
 sudo yum -y install nodejs
 
+
+#需要安装gcc库
+yum -y install gcc gcc-c++ kernel-devel
+
+
+
 使用 yum 先删除一次
 yum remove nodejs npm -y
 
