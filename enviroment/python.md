@@ -35,7 +35,7 @@ python3.5 setup.py install 1
 
 另外可以从官网下载 get-pip.py，然后执行：
 
-
+ 
 
 python3.5 get-pip.py1
 
