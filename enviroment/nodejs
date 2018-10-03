@@ -26,12 +26,13 @@ npm install -g request
 #npm install -g ws
 
 
-#npm install -g ccxt
+#npm install ccxt
 
-#npm install -g ccxt
+#npm install  ccxt
 #新建文件夹 mkdir ccxt
 
 #移动文件夹 move node_module/ ccxt
+           mv package-lock.json ccxt
 
 【npm uninstall xxx】删除xxx模块； 
 【npm uninstall -g xxx】删除全局模块xxx；
