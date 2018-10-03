@@ -1,0 +1,11 @@
+$ whereis git
+我们要把编译安装的git路径放到环境变量里，让它替换"/usr/bin"下的git。为此我们可以修改“/etc/profile”文件（或者/etc/bashrc文件）。
+
+sudo vim /etc/profile
+
+
+然后在文件的最后一行，添加下面的内容，然后保存退出。
+
+export PATH=/usr/local/git/bin:$PATH
+
+---------------------
