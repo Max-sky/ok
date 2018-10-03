@@ -9,3 +9,7 @@ sudo vim /etc/profile
 export PATH=/usr/local/git/bin:$PATH
 
 ---------------------
+#查看项目版本
+git status
+#查看修改变化
+git diff btc.json
