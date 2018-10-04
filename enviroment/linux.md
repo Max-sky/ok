@@ -18,3 +18,8 @@ linux下重命名文件或文件夹使用mv既可实现。
 [root@station90 root]
 
 #mv abc.txt 1234.txt
+
+
+
+pwd：显示当前目录
+ls和dir：显示当前目录下的文件
