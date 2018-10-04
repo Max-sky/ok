@@ -1,3 +1,7 @@
+只要看这个就行https://blog.csdn.net/alpha_xiao/article/details/53784397
+
+
+
 Sublime Text 如何连接 FTP/SFTP
 2015年08月02日 23:40:48 yuliying 阅读数：11028更多
 个人分类： linux/c/c++/杂项
