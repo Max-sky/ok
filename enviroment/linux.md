@@ -1,6 +1,6 @@
-pip3 ccxt；
 
-
+@返回home 
+  cd ~
 #新建文件夹
 mkdir ccxt
 
