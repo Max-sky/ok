@@ -13,7 +13,7 @@
 
 
 pip指定python版本安装						
-（1） pip install -t /usr/lib/python3.4/site-packages/ ccxt
+（1） pip install -t /usr/lib/python3.4/site-packages/ccxt ccxt
      
 
 （2）mv pip pip3
