@@ -1,0 +1,33 @@
+https://www.jianshu.com/p/34843d792e38
+
+ 下载pip
+  wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b2904f92d46aaa333267fb1c922bb" --no-check-certificate
+  
+  安装pip
+  
+  # tar -xzvf pip-1.5.4.tar.gz
+# cd pip-1.5.4
+# python setup.py install
+
+
+Miniconda下载
+wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+
+安装miniconda
+sh Miniconda2-latest-Linux-x86_64.sh
+输入yes，回车，输入yes，重新登录。
+
+
+——————————————————————————————————————
+
+修改环境配置
+
+
+# 更新bashrc以立即生效
+
+设置环境
+export PATH="/root/miniconda2/bin:$PATH"
+激活miniconda
+source miniconda2/bin/activate ~/miniconda2
+
+
