@@ -31,3 +31,31 @@ export PATH="/root/miniconda2/bin:$PATH"
 source miniconda2/bin/activate ~/miniconda2
 
 
+
+-------------------------
+
+# 创建一个名为python36的环境，指定Python版本是3.6（不用管是3.6.x，conda会为我们自动寻找3.6.x中的最新版本）
+
+1
+conda create --name python36 python=3.6
+# 安装好后，使用activate激活某个环境
+
+activate python36 # for Windows
+source activate python36 # for Linux & Mac
+# 激活后，会发现terminal输入的地方多了python36的字样，实际上，此时系统做的事情就是把默认2.7环境从PATH中去除，再把3.6对应的命令加入PATH
+
+# 此时，再次输入
+python --version
+# 可以得到`Python 3.6.5 :: Anaconda 4.1.1 (64-bit)`，即系统已经切换到了3.6的环境
+
+# 如果想返回默认的python 2.7环境，运行
+deactivate python36 # for Windows
+source deactivate python36 # for Linux & Mac
+# 删除一个已有的环境
+conda remove --name python36 --all
+
+
+
+
+
+
