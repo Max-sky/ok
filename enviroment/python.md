@@ -66,3 +66,14 @@ vim /usr/bin/pip1
 
 pip3.5 install pymongo1
 
+
+
+mac:
+卸载pip     python3 -m pip uninstall pip setuptools 
+             cur   https://bootstrap.pypa.io/get-pip.py | python3
+	     
+	     
+
+
+库：sklearn  matplotlib  tushare  beautifulsoup4  tensorflow    keras 
+
